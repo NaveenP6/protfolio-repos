@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 .body {
-    background-color:rgb(13, 91, 207);
+    background-color:#1E72EF;
     font-family: 'Roboto', sans-serif;
     color:white;
 }
 .navbar{
-            background-color: #2e2c2c;
+            background-color: #1f2024;
             border-radius: 12px;
-            
         }
         .navbar ul{
             overflow: auto;
         }
         .navbar li{
-            float:left;
+            float: left;
             list-style: none; 
             margin: 14px 20px;
             
@@ -24,7 +23,7 @@
             color: white;
         }
         .navbar li a:hover{
-            color: rgb(13, 91, 207);
+            color: #1E72EF;
         }
         .search{
             float: right;
@@ -32,8 +31,45 @@
             padding: 12px 75px;
         }
         .navbar input{
-            border: 2px solid #2e2c2c;
+            border: 2px solid #1f2024;
             border-radius: 14px;
             padding: 3px 17px;
             width: 129px;
         }
+.header {
+    background-color: #1E72EF;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2024;
+    border:1px solid #1f2024;
+    border-radius: 12px;
+}
+    .footer-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #1f2024;
+        border:1px solid #1f2024;
+        border-radius: 12px;
+    }
+    .img {
+        padding-left:0.5em;
+    }
+    .imgg {
+        padding-right: 0.5em;
+    }
+    .copy {
+        font-size: 15px;
+    }
