@@ -10,19 +10,24 @@
     <link href="./css/style.css" rel="stylesheet" />
     <script type="text/javascript" src="./script/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="body" id="page-top">
    <!--Navigation-->
    <section class="navbar-container">
-        <nav class="navbar">
-            <a class="navbar-brand" style="float:left">Naveen.Dev</a>
-            <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">About</a></li>
+        <div class="navbar">
+            <a class="navbar-brand" id="myTopnav"style="float:left">Naveen.Dev</a>
+            <ul class="topnav">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#youtube">Youtube</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
-        </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </section>
     <!--Header--> 
    <section class="header-container">
@@ -33,23 +38,23 @@
        </header>
    </section>
 <hr style="width:80%", size="3", color="#1f2024">
-<!--About-->
-   <section class="about-container section">
+<div class="content-container">
+    <!--About-->
+   <section class="about-container">
        <div>
            <h2>About</h2>
            <p>about me</p>
        </div>
-   </section>  
-<div class="content-container">
+   </section>
    <!--Youtube-->
-    <section class="youtube-container section">
+    <section class="youtube-container">
        <div>
            <h2>Youtube</h2>
            <p>my devlog</p>
        </div>
    </section>
    <!--Contact-->  
-   <section class="contact-container section">
+   <section class="contact-container">
        <div>
            <h2>Contact</h2>
            <p>contact me!</p>
