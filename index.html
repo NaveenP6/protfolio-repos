@@ -10,65 +10,68 @@
     <link href="./css/style.css" rel="stylesheet" />
     <script type="text/javascript" src="./script/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="body" id="page-top">
    <!--Navigation-->
    <section class="navbar-container">
-        <nav class="navbar">
-            
-            <ul>
-                <li class="Name"><a>Naveen.Dev</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">Contact</a></li>
-                <div class="search">
-                    <input type="text" name="search" id="search" placeholder="Search this website">
-                </div>
-            </ul>
-        </nav>
+        <div class="topnav">
+               <a href="#home"id="myTopnav">Naveen.Dev</a>
+                <a href="#contact">Contact</a>
+                <a href="#youtube">Youtube</a>
+                <a href="#about">About</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </section>
-   <!--Header--> 
-   <section class="header-container">
+    <!--Header--> 
+   <section href="#home"class="header-container">
        <header class="header">
            <h1>Welcome to My Portfolio</h1>
-           <input type="button" class="button" id="button" value="Learn More">
+           <p>Hello, my name is Naveen Prabaharan and this is my portfolio.</p>
+           <input type="button" class="button no-outline" id="button" value="Learn More">
        </header>
    </section>
-   <!--About-->
-   <section class="about-container section">
-       <div class="about">
+<hr style="width:80%", size="3", color="#1f2024">
+<div class="content-container">
+    <!--About-->
+   <section class="about-container">
+       <div>
            <h2>About</h2>
            <p>about me</p>
        </div>
    </section>
    <!--Youtube-->
-    <section class="youtube-container section">
-       <div class="youtube">
+    <section class="youtube-container">
+       <div>
            <h2>Youtube</h2>
            <p>my devlog</p>
        </div>
    </section>
    <!--Contact-->  
-   <section class="contact-container section">
-       <div class="contact">
+   <section class="contact-container">
+       <div>
            <h2>Contact</h2>
            <p>contact me!</p>
        </div>
    </section>
-
+</div>
+   
    <!--Footer-->
-   <section class="footer-conatiner footer">
-       <footer class="footer">
-           
-           <p class="footer-img">
+   <section class="footer-container">
+           <a class="footer-img">
                <ion-icon class="img" size="large"name="code-slash-outline"></ion-icon>
                <ion-icon class="img" size="large"name="logo-html5"></ion-icon>
                <ion-icon class="img" size="large"name="logo-css3"></ion-icon>
                <ion-icon class="img" size="large"name="logo-javascript"></ion-icon>
-           </p>
-           <p class="copy">&copy;2022 Naveen Prabaharan</p>
-       </footer>
+           </a>
+           <a class="copy">
+               <p>&copy;2022 Naveen Prabaharan</p>
+               <p>All Rights Reserved</p>
+           </a>
    </section>
 </body>
 </html>
