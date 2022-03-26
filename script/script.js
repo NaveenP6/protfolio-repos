@@ -1,5 +1,5 @@
 function navbar() {
-    let x = documen.getElementById("MyTopnav")
+    let x = document.getElementById("MyTopnav")
     if (x.className === "topnav") {
         x.className +=" responsive";
     } else {
