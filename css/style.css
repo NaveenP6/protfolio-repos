@@ -4,11 +4,6 @@
     font-family: 'Roboto', sans-serif;
     color:white;
 }
-.content-container {
-    column-count: 3;
-}
-
-
 .topnav {
   overflow: hidden;
   background-color: #1f2024;
@@ -74,6 +69,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
     
     .button {
@@ -100,6 +96,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 1em;
+    height: 300px;
 }
  
 .youtube-container {
@@ -110,6 +108,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 1em;
 }
 .contact-container {
     background-color: #1f2024;
@@ -119,6 +118,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 1em;
 }
 .footer-container {
     display: flex;
