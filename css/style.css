@@ -111,10 +111,9 @@
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
     margin: 1em;
-    height: 200px;
+    height: 545px;
 }
 .contact-container {
     background-color: #1f2024;
@@ -122,10 +121,9 @@
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
     margin: 1em;
-    height: 200px;
+    height: 545px;
 }
 .footer-container {
     display: flex;
