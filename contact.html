@@ -14,15 +14,48 @@
 <body class="body content" id="page-top">
     <!--Navigation-->
    <section class="navbar-container">
+       <nav class="nav">
+    <button type="button" class="nav-close" onclick="toggleNav()">
+      <ion-icon name="close-outline" size="large"></ion-icon>
+    </button>
+    <div class="nav-links-container">
+      <a href="index.html" class="nav__link">
+          <ion-icon name="cube-outline" size="large"></ion-icon>
+        <span class="nav__text">Naveen.Dev</span>
+        
+      </a>
+    <div class="nav-links-container">
+      <a href="youtube.html" class="nav__link">
+        <ion-icon name="cube-outline" size="large"></ion-icon>
+        <span class="nav__text">Youtube</span>
+        
+      </a>
+      <a href="contact.html" class="nav__link">
+        <ion-icon name="call-outline" size="large"></ion-icon>
+        <span class="nav__text">Contact</span>
+
+      </a>
+    </div>
+  </nav>
         <div class="topnav">
                <a href="index.html"id="myTopnav">Naveen.Dev</a>
                <a href="youtube.html">Youtube</a>
-               <a href="contact.html">Contact</a>
+            <a href="contact.html">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+                <i onclick="toggleNav()"class="main fa fa-bars"></i>
             </a>
         </div>
     </section>
+    <!--Header--> 
+   <section href="#home"class="header-container">
+       <header class="header">
+           <h1>Welcome to My Portfolio</h1>
+           <p>Developer, Student, Hard Worker</p>
+           <input type="button" class="button no-outline" id="button" value="Learn More">
+       </header>
+   </section>
+<hr style="width:85%", size="3", color="#1f2024">
+
     <!--Contact-->
     <section class="contact-container">
         <div>

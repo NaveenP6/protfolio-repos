@@ -9,6 +9,67 @@
   flex-direction: column;
   text-align: center;
 }
+.nav-open .nav {
+  transform: translateX(0);
+}
+
+.nav-open .main {
+  transform: translateX(500px);
+}
+
+.nav {
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #1f2024;
+  transform: translateX(500px);
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.nav-close {
+  background: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 15px 25px;
+  color: #dddddd;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.nav-close:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.nav-links-container {
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #dddddd;
+}
+
+.nav__text {
+  font-size: 22px;
+  font-family: "Assistant", sans-serif;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.main {
+  transition: transform 0.2s;
+}
 .topnav {
   overflow: hidden;
   background-color: #1f2024;
