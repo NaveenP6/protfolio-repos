@@ -6,3 +6,6 @@ function navbar() {
         x.className = "topnav";
     }
 }
+function toggleNav() {
+      document.body.classList.toggle("nav-open");
+    }
