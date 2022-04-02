@@ -208,6 +208,10 @@
     .img {
         padding-left:0.5em;
     }
+    .img-contact{
+      height: 50px;
+      width: 50px;
+    }
     .copy {
         font-size: 15px;
         text-align: center;
