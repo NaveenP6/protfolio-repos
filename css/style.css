@@ -182,7 +182,7 @@
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-
+    padding-top: 3em;
     margin: 1em;
     height: 545px;
 }
@@ -209,8 +209,9 @@
         padding-left:0.5em;
     }
     .img-contact{
-      height: 100px;
-      width: 100px;
+      height: 50px;
+      width: 50px;
+      padding:0.5em;
     }
     .copy {
         font-size: 15px;
