@@ -9,6 +9,10 @@
   flex-direction: column;
   text-align: center;
 }
+.bar {
+  color:#1f2024;
+  size: "3";
+}
 .nav-open .nav {
   transform: translateX(0);
 }
@@ -139,21 +143,19 @@
 }
     
     .button {
-          background-color: #1E72EF;
-          border: 1px solid #1E72EF;
+          background-color: #ffffff;
+          border: 1px solid #ffffff;
           border-radius: 5px;
           font-family: 'Roboto', sans-serif;
           padding: 12px;
-          color: white;
+          color:#1E72EF;
           padding: 10px 30px;
           text-align: center;
           text-decoration: none;
           display: inline-block;
           font-size: 20px;
         }
-        .no-outline {
-            border:none;
-        }
+        
 .about-container {
     background-color: #1f2024;
     border-radius: 12px;
